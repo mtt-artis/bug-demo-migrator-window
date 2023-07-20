@@ -1,0 +1,16 @@
+{
+  "name": "bug-demo-migrator-window",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "migrate:latest:cjs": "node cjs/migrate-to-latest.cjs",
+    "migrate:latest:esm": "node esm/migrate-to-latest.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "kysely": "0.23.3",
+    "pg": "^8.8.0"
+  }
+}
